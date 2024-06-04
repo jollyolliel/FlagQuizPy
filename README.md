@@ -1,43 +1,40 @@
-# Flag Game
-Welcome to the Flag Game! This is an interactive game where you guess the country based on its flag. The game is built using Python and the Turtle graphics library. Follow the instructions below to play the game.
+## Flag Game: Test Your Geographic Skills!
 
-# How to Play
-* Run the Game: Start by running the Python script. A window will open displaying a flag.
-* Guess the Country: Type the name of the country (in lowercase) that you think the flag represents. 
-* Earn Points: If you guess correctly, you earn a point, and the flag is removed from the list.
-* If you guess  incorrectly, you lose a life.
-* End of the Game: The game ends when you either guess all the flags correctly or run out of lives.
-* Flags Included
-* The game includes flags from the following countries:
+This is a fun little game written in Python using Turtle Graphics that tests your knowledge of flags from different countries.
 
-Germany
-Lithuania
-Spain
-Russia
-Poland
-Indonesia
-Italy
-Scoring
-Correct Guess: +1 point
-Incorrect Guess: -1 life
-You start with 3 lives.
+**How to Play:**
 
-Game Flow
-Start: The game begins with a screen showing a flag.
-Input: You type in the name of the country.
-Feedback: The game provides feedback on your guess:
-If correct, the flag is removed from the list, and you earn a point.
-If incorrect, you lose a life.
-Repeat: This process repeats until you have either guessed all flags or run out of lives.
-End: The game displays a message indicating whether you won or lost based on your remaining lives and points.
-Running the Game
-Ensure you have Python installed on your system. You will also need the Turtle graphics library, which is included in Python's standard library.
+1.  Run the script (`python flag_game.py`).
+2.  The game will display a flag on the screen.
+3.  Type the name of the country (all lowercase) in the input prompt.
+4.  If you guess correctly, you earn a point and a new flag will be shown.
+5.  If you guess incorrectly, you lose a life. The game ends when you lose all your lives.
 
-Save the script to a file named flag_game.py.
-Open a terminal or command prompt.
-Navigate to the directory where flag_game.py is saved.
-Run the script using the command:
-bash
-Αντιγραφή κώδικα
-python flag_game.py
-Example Code
+**Goal:**
+
+Guess the flags correctly to earn points and win the game!
+
+**Features:**
+
+-   Draws flags of various countries using Turtle Graphics.
+-   Keeps track of your points and lives.
+-   Provides feedback on your guesses.
+
+**Supported Flags:**
+
+-   Germany
+-   Lithuania
+-   Spain
+-   Russia
+-   Poland
+-   Indonesia
+-   Italy
+
+**Future Improvements:**
+
+-   Add more flags from different countries.
+-   Implement difficulty levels.
+-   Include a timer for an extra challenge.
+-   Display the correct answer after an incorrect guess for learning purposes.
+
+**Feel free to modify and extend this code to create your own custom flag quiz game!**
